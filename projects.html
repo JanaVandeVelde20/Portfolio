@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio JVV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="m-0 p-0 text-gray-300 scroll-smooth">
+    <div class="relative w-full h-full flex flex-col items-center gap-[100px] bg-[#001f7c38]">
+        <video class="back-vid" autoplay loop muted plays-inline src="assets/videos/galaxy.mp4"></video>
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="flex items-center">
+                <h2>Portfolio Jana Vande Velde</h2>
+            </div>
+
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="ERASMUS.html">ERASMUS</a></li>
+            </ul>
+
+            <div class="flex gap-[40px] box-icons">
+                <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
+            </div>
+
+           <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>        
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="ERASMUS.html">ERASMUS</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bx-bx-envelope'></i></a>
+                <a><i class='bx bxl-github'></i></a>
+                <a><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+
+        <section class="my-project">
+            <h1 class="text-[40px] font-semibold autoDisplay mb-20" autoDisplay">My Projects 💻✨</h1>
+            <div class="project-card autoBlur">
+                <div class="project-vidbox" >
+                    <video loop id="projectVideo1" src="assets/videos/Ready2Cook Video.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Ready2Cook <span class="gradient">Mobile</span> App</h1>
+                    <p>I developed a React Native app called Ready2Cook. This app helps users find recipes based on the ingredients they already have at home. By entering the ingredients you have, the app uses the Spoonacular API to search for recipes that make the most of those ingredients, minimizing food waste.</p>
+                    <div class="flex-row">
+                        <a href="https://youtu.be/gsUM50nsls8" target="_blank" rel="noopener noreferrer"><i class='bx bx-play' ></i>Demo Video</a>
+                        <a href="https://github.com/JanaVandeVelde20/Ready2Cook/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external' ></i>View Code</a>
+                    </div> 
+            </div>
+            </div>
+
+            <div class="project-card autoBlur">
+                <div class="project-vidbox">
+                    <video loop id="projectVideo2" src="assets/videos/MJ Entertainment Website Video.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1> MJ Entertainment <span class="gradient">Website</span></h1>
+                    <p>I created a website dedicated to providing entertainment for kids' parties and various events. The offerings on this platform include both shows and workshops, featuring activities such as balloon twisting, circus performances, and magic tricks.
+                       The development process involved the use of Bootstrap, HTML, CSS, and JavaScript, enhancing the site's visual appeal and functionality.</p>
+                    <a  href="https://mj-entertainment.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external' ></i> Visit Website</a>
+                </div>
+            </div>
+
+            <div class="project-card autoBlur">
+                <div class="project-vidbox">
+                    <video loop id="projectVideo3" src="assets/videos/Dino Game Video.mp4"></video>
+                </div>
+                
+                <div class="project-info fadein-left">
+                    <h1>Dino <span class="gradient">Game</span></h1>
+                    <p>I recreated the popular Chrome dinosaur game with modern visuals using HTML, CSS, and JavaScript.
+                       JavaScript handles the creation of obstacles at set intervals, and I also built a separate script to control the dinosaur's jump when the spacebar is pressed. When the dino collides with an obstacle, the game enters a "game over" state, and a new background is displayed.
+                       Additionally, I used CSS for the dino's animations, employing keyframes and sprites to animate its running, jumping, and dying actions.</p> 
+                    <div class="flex-row">
+                        <a  href="https://dinogame-jvv.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-play' ></i> Play now</a>
+                        <a href="https://github.com/JanaVandeVelde20/Dino-game" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external' ></i>View Code</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h1 class="mt-5">©️2025, Made with ❤️ by Jana Vande Velde</h1>
+            <div class="flex gap-[40px] mt-5 box-icons">
+                <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
+            </div>
+        </section>
+
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
+</body>
+</html>
