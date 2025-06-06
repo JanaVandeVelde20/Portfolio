@@ -779,7 +779,7 @@ header ul a:hover {
   width: 70%;
   height: 50%;
   object-fit: cover;
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
 }
 
 .card button {
@@ -834,7 +834,6 @@ header ul a:hover {
   justify-content: center;
   width: 50%;
   mix-blend-mode: normal;
-  /* mix-blend-mode: exclusion; */
   position: relative;
   cursor: pointer;
   transition: 0.5s;
