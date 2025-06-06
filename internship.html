@@ -10,90 +10,138 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="dist/output.css" rel="stylesheet" />
   </head>
-  <body class="flex flex-col min-h-screen text-gray-300 scroll-smooth">
-    <div
-      class="relative flex-1 w-full min-h-screen flex flex-col items-center gap-[100px] bg-[#001f7c38]"
-    >
-      <video
-        class="back-vid"
-        autoplay
-        loop
-        muted
-        plays-inline
-        src="assets/videos/galaxy.mp4"
-      ></video>
-      <header data-aos="fade-down" data-aos-duration="2000">
-        <div class="flex items-center">
-          <h2>Portfolio Jana Vande Velde</h2>
+   <body>
+    <div class="container">
+      <video class="back-vid" autoplay loop muted plays-inline src="assets/videos/galaxy.mp4"></video>
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="flex items-center">
+                <h2>Portfolio Jana Vande Velde</h2>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Internship</a></li>
+                <li><a href="Erasmus.html">Erasmus</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="flex gap-[40px] box-icons">
+                <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
+            </div>
+
+           <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>        
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Internship</a></li>
+                <li><a href="Erasmus.html">Erasmus</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
         </div>
+      
+      <section class="hero" id="internship-location">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    Internship assignement
+                </div>
 
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#skills">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="#">Internship</a></li>
-          <li><a href="ERASMUS.html">ERASMUS</a></li>
-        </ul>
-
-        <div class="flex gap-[40px] box-icons">
-           <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
-           <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
-           <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
-        </div>
-
-        <div class="menu-icon">
-          <i class="bx bx-menu"></i>
-        </div>
-      </header>
-      <div class="sidebar">
-        <div class="close-icon">
-          <i class="bx bx-x"></i>
-        </div>
-
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="#">Internship</a></li>
-          <li><a href="ERASMUS.html">ERASMUS</a></li>
-        </ul>
-
-        <div class="social-sidebar">
-          <a><i class="bx bx-bx-envelope"></i></a>
-          <a><i class="bx bxl-github"></i></a>
-          <a><i class="bx bxl-linkedin-square"></i></a>
-        </div>
-      </div>
-
-      <section class="flex h-[100vh] justify-between mt-36">
-        <div
-          class="hero-info flex-1 mr-10"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <div
-            class="p-[10px] text-center border border-[#72a1de94] rounded-[50px] bg-[#2200493d] text-[#72a1de] w-[190px] shadow-[0_0_5px_rgba(114,161,222,0.51)]"
-          >
-            Internship assignment
-          </div>
-          <h1 data-aos="fade-right" data-aos-duration="3000">Companion app</h1>
+                <h1 data-aos="fade-right" data-aos-duration="3000">Strobbo</h1>
          <div data-aos="fade-right" data-aos-duration="3000" class="toggle-wrapper">
             <div class="toggle-circle"></div>
           </div>  
-         
-      <img src="assets/videos/Strobbo-Toggle-unscreen.gif" alt="">
+
           <p style="max-width: 600px">
-            During my internship at Strobbo in Lommel, I helped build a new app called the Companion App. This app makes it easy for employers to do their daily tasks right on the workfloor, without needing a computer. With the app, they can see who is currently working, mark someone as absent, clock employees in or out, and quickly call or text an employee.
+            I did my internship at Strobbo in Lommel. <br> Strobbo makes software to help businesses with staff scheduling, time tracking, employee management,... .
+            They work with well-known companies like McDonald’s, Pizza Hut, Burger King, KFC, Delhaize, SPAR, Holiday Inn, and many more.
+          </p>
+         <div class="mockup-video-wrapper">
+           <img src="assets/images/internship/MapLommel.png" alt="Map Lommel" class="location">
+        </div>
+            </div>
+            
+            <div class="skills-video-box " >
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="assets/videos/hero-video.mp4"></video>
+            </div>
+            <div class="scroll-down"></div>
+      </section>
+
+      <section style="margin-top: 180px;" class="internship-section" id="internship-location-desktop">
+        <div
+          class="hero-info"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <div class="hero-info-title">
+            Internship assignment
+          </div>
+          <h1 data-aos="fade-right" data-aos-duration="3000">Strobbo</h1>
+         <div data-aos="fade-right" data-aos-duration="3000" class="toggle-wrapper">
+            <div class="toggle-circle"></div>
+          </div>  
+
+          <p style="max-width: 600px">
+            I did my internship at Strobbo in Lommel. <br> Strobbo makes software to help businesses with staff scheduling, time tracking, employee management,... .
+            They work with well-known companies like McDonald’s, Pizza Hut, Burger King, KFC, Delhaize, SPAR, Holiday Inn, and many more.
           </p>
         </div>
-        <div class="absolute right-50 mt-20 mb-10">
+        <div class="mockup-video-wrapper">
+           <img src="assets/images/internship/MapLommel.png" alt="Map Lommel" class="location">
+        </div>
+        <div class="skills-video-box " >
+        <section id="skills-video-section">
+          <video
+            id="skillsVideo"
+            class="skills-video autoBlur"
+            muted
+            playsinline
+            loop
+            src="videos/hero-video.mp4"
+          ></video>
+        </section>
+        <div style="position: absolute; top:650px; left:55%; margin-top: 50px;">
+                <div class="scroll-down"></div>
+            </div>
+      </section>
+      
+      <section style="margin-top: 250px;" class="internship-section">
+        <div class="hero-info" id="companion-app">
+          <h1>Companion app</h1>
+          <h2>Problem Solved 💡✔️</h2>
+          <p style="max-width: 600px">
+            During my internship I made a a new mobile app called the Companion App. This app was created to meet the growing need of employers for a faster, more convenient way to handle daily tasks directly from the workfloor.
+            Instead of having to return to their offices and use a desktop computer, they can now perform essential actions, such as managing time-registrations and absences right from their phones which saves time and increases the efficiency on-site.
+          </p>
+          <h2>Use Cases 🕗📱</h2>
+          <p style="max-width: 600px">
+              The main features of the new app include: quickly clocking employees in or out if they forget, adjusting time registrations, marking absences, scheduling available staff, contacting employees, and easily viewing who is currently working, scheduled, or being late.
+          </p>
+          <h2>Used Technolgies 👩‍💻💻</h2>
+          <p style="max-width: 600px">
+            The front-end of the app was developed using React Native, while the back-end was built with Node.js to handle server-side logic and data management. To support the required functionalities, the existing Strobbo API was integrated, with several endpoints modified or newly added to meet the specific needs of the app.          </p>
+        </div>
+        <div class="mockup-video-wrapper">
            <video
-            style="height: 690px"
-            class="mockup-vid w-full"
+            style="height: 690px; width: 100%;"
+            class="mockup-vid"
             autoplay
             muted
             playsinline
@@ -102,24 +150,35 @@
         </div>
         <div class="skills-video-box " >
         <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
-        <div class="scroll-down"></div>
+        <div style="position: absolute; top: 890px; left: 55%; margin-top: 50px;">
+                <div class="scroll-down"></div>
+        </div>
       </section>
 
-      <section class="flex h-[100vh] justify-between">
-        <div class="hero-info flex-1 mr-32 mt-20">
-          <div class="mb-10">
-            <h2 class="text-[35px] font-bold mb-[10px]">Download first version app</h2>
+      <section class="internship-section" style="margin-top: 235px;">
+        <div class="internship-documents">
+          <div style="margin-bottom: 10px;">
+            <h2 class="internship-documents-title">Download first version app</h2>
             <p>
-              If you’d like to try the Companion App yourself, simply scan the QR code below to get started.
+              If you’d like to try the Companion App yourself, simply 
+              <span class="text-desktop">scan the QR code</span> 
+              <span class="text-mobile">click the button</span> 
+              below to get started.
             </p>
-            <img src="assets/images/internship/QRcode_CompanionApp.PNG" alt="QR Code Companion App" class="h-[200px] rounded-md border border-[#72a1de94] shadow-[0_0_10px_rgba(114,161,222,0.51)]">
+            <div class="project-info w-[10%] flex-row" id="install-app">
+                    <a href="https://expo.dev/accounts/jana_vdv/projects/strobbo-mobile-planner/builds/87dcc98a-56a8-4a4c-8031-18150d4db297"
+                     target="_blank" rel="noopener noreferrer">
+                        <i class='bx bx-link-external'></i> Install app
+                    </a>
+            </div>
+            <img src="assets/images/internship/QRcode_CompanionApp.PNG" alt="QR Code Companion App" class="qr-code">
           </div>
-          <div class="mt-5">
-            <h2 class="text-[35px] font-bold mb-[10px]">Documents Internship</h2>
+          <div style="margin-top: 5px;">
+            <h2 class="internship-documents-title">Documents Internship</h2>
               <p>
                 Here you will find all the documents related to my internship.
               </p>
-              <div class="project-info w-full flex-row pl-0">
+              <div class="internship-documents-buttons">
                   <a href="assets/documents/Project Plan Jana Vande Velde.pdf" target="_blank" rel="noopener noreferrer">
                      <i class='bx bx-link-external'></i> Project Plan
                   </a> 
@@ -135,23 +194,52 @@
           </div>
          
         </div>
-        <div class="absolute right-20 mt-20 mb-10">
+        <div class="image-wrapper">
           <img
             src="assets/images/internship/MockupScreens.png"
             alt="MockupScreens"
-            class="h-[500px] mr-10"
+            class="image-mockup"
+            
           />
+        </div>
+        <div id="scroll-down-mobile">
+                <div class="scroll-down"></div>
         </div>
       </section>
 
-      <section class="footer">
-        <h1 class="mt-5">©️2025, Made with ❤️ by Jana Vande Velde</h1>
-        <div class="flex gap-[40px] mt-5 box-icons">
-          <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
-          <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
-          <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
-        </div>
-      </section>
+      <section class="footer footer-wide" id="footer-mobile">
+          <h1>©️2025, Made with ❤️ by Jana Vande Velde</h1>
+          <div class="box-icons">
+            <a
+              href="mailto:jana.vandevelde20@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p><i class="bx bx-envelope"></i></p
+            ></a>
+            <a
+              href="https://github.com/JanaVandeVelde20"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p><i class="bx bxl-github"></i></p
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jana-vande-velde-/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p><i class="bx bxl-linkedin-square"></i></p
+            ></a>
+          </div>
+        </section>
+
+        <section style="position: relative; width:100%;" class="footer" id="footer-desktop">
+            <h1>©️2025, Made with ❤️ by Jana Vande Velde</h1>
+            <div class="box-icons">
+                <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-github'></i></p></a> 
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><p><i class='bx bxl-linkedin-square'></i></p></a>
+            </div>
+            
+        </section>
     </div>
 
     <script src="app.js"></script>

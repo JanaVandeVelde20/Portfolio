@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="dist/output.css" rel="stylesheet">
 </head>
-<body class="m-0 p-0 text-gray-300 scroll-smooth">
-    <div class="relative w-full h-full flex flex-col items-center gap-[100px] bg-[#001f7c38]">
+<body class="container">
+    <div style="position: relative; width: 100%;">
         <video class="back-vid" autoplay loop muted plays-inline src="assets/videos/galaxy.mp4"></video>
         <header data-aos="fade-down" data-aos-duration="2000">
             <div class="flex items-center">
@@ -18,12 +17,12 @@
             </div>
 
             <ul>
-                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="internship.html">Internship</a></li>
-                <li><a href="ERASMUS.html">ERASMUS</a></li>
+                <li><a href="Erasmus.html">Erasmus</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
 
             <div class="flex gap-[40px] box-icons">
@@ -43,24 +42,23 @@
             
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="internship.html">Internship</a></li>
-                <li><a href="ERASMUS.html">ERASMUS</a></li>
+                <li><a href="Erasmus.html">Erasmus</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
 
             <div class="social-sidebar">
-                <a><i class='bx bx-bx-envelope'></i></a>
-                <a><i class='bx bxl-github'></i></a>
-                <a><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/JanaVandeVelde20" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/jana-vande-velde-/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>
             </div>
         </div>
 
-        <section class="my-project">
-            <h1 class="text-[40px] font-semibold autoDisplay mb-20" autoDisplay">My Projects 💻✨</h1>
-            <div class="project-card autoBlur">
-                <div class="project-vidbox" >
+        <section class="my-project project-section project-centered">
+            <h1 class="section-title autoDisplay" autoDisplay">My Projects 💻✨</h1>
+            <div  style="margin-bottom: 100px;" class="project-card autoBlur" >
+                <div class="project-vidbox" id="Ready2Cook" >
                     <video loop id="projectVideo1" src="assets/videos/Ready2Cook Video.mp4"></video>
                 </div>
                 <div class="project-info fadein-left">
@@ -73,7 +71,7 @@
             </div>
             </div>
 
-            <div class="project-card autoBlur">
+            <div style="margin-bottom: 100px;" class="project-card autoBlur" id="mj-entertainment">
                 <div class="project-vidbox">
                     <video loop id="projectVideo2" src="assets/videos/MJ Entertainment Website Video.mp4"></video>
                 </div>
@@ -85,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="project-card autoBlur">
+            <div style="margin-bottom: 100px;" class="project-card autoBlur" id="dino-game">
                 <div class="project-vidbox">
                     <video loop id="projectVideo3" src="assets/videos/Dino Game Video.mp4"></video>
                 </div>
@@ -103,7 +101,7 @@
             </div>
         </section>
 
-        <section class="footer">
+        <section class="footer footer-wide">
             <h1 class="mt-5">©️2025, Made with ❤️ by Jana Vande Velde</h1>
             <div class="flex gap-[40px] mt-5 box-icons">
                 <a href="mailto:jana.vandevelde20@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class='bx bx-envelope'></i></p></a>
