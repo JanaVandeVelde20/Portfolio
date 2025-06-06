@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
     <title>Portfolio JVV</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -21,7 +21,7 @@
 
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="#">Internship</a></li>
                 <li><a href="Erasmus.html">Erasmus</a></li>
@@ -45,7 +45,7 @@
             
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="#">Internship</a></li>
                 <li><a href="Erasmus.html">Erasmus</a></li>
@@ -81,7 +81,6 @@
             <div class="skills-video-box " >
                 <video class="skills-video autoBlur" autoplay loop muted plays-inline src="assets/videos/hero-video.mp4"></video>
             </div>
-            <div class="scroll-down"></div>
       </section>
 
       <section style="margin-top: 180px;" class="internship-section" id="internship-location-desktop">
@@ -155,7 +154,7 @@
         </div>
       </section>
 
-      <section class="internship-section" style="margin-top: 235px;">
+      <section class="internship-section internship-section-2" style="margin-top: 235px;">
         <div class="internship-documents">
           <div style="margin-bottom: 10px;">
             <h2 class="internship-documents-title">Download first version app</h2>
@@ -167,7 +166,7 @@
             </p>
             <div class="project-info w-[10%] flex-row" id="install-app">
                     <a href="https://expo.dev/accounts/jana_vdv/projects/strobbo-mobile-planner/builds/87dcc98a-56a8-4a4c-8031-18150d4db297"
-                     target="_blank" rel="noopener noreferrer">
+                     target="_blank" rel="noopener noreferrer" class="read-more-link"
                         <i class='bx bx-link-external'></i> Install app
                     </a>
             </div>
@@ -199,6 +198,7 @@
             src="assets/images/internship/MockupScreens.png"
             alt="MockupScreens"
             class="image-mockup"
+            id="mockup-screen-home"
             
           />
         </div>
@@ -207,7 +207,7 @@
         </div>
       </section>
 
-      <section class="footer footer-wide" id="footer-mobile">
+      <section class="footer footer-wider" id="footer-mobile">
           <h1>©️2025, Made with ❤️ by Jana Vande Velde</h1>
           <div class="box-icons">
             <a

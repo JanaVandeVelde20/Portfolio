@@ -27,7 +27,7 @@ html {
 
 .container {
   position: relative;
-  width: 100%;
+  width: auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -311,6 +311,11 @@ header ul a:hover {
   justify-content: space-between;
 }
 
+.internship-section .hero-info h1 {
+    margin-top: 100px;
+    font-size: 35px;
+}
+
 .internship-documents {
   flex-grow: 1;
   flex-shrink: 1;
@@ -330,13 +335,19 @@ header ul a:hover {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.internship-section-2{
+  margin-top: 360px !important;
 }
 
 .internship-documents-buttons {
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  width: 100%;
+  width: 110%;
+  scale:1.1;
 }
 
 .internship-documents-buttons a {
@@ -360,6 +371,9 @@ header ul a:hover {
   box-shadow: 0 0 15px #72a1de81;
 }
 
+#erasmus-courses{
+  display: none;
+}
 .erasmus {
   height: 100vh;
   display: flex;
@@ -405,6 +419,16 @@ header ul a:hover {
   position: relative;
 }
 
+#project-info-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
 .ErasmusCourses {
   display: flex;
   height: 70vh;
@@ -417,9 +441,9 @@ header ul a:hover {
   margin-bottom: 10px;
 }
 
-  .ErasmusCourses{
-    display: flex;
-  }
+.ErasmusCourses {
+  display: flex;
+}
 
 .sweden {
   top: -204px;
@@ -787,7 +811,7 @@ header ul a:hover {
   align-items: center;
   justify-content: center;
   width: 50%;
-  mix-blend-mode: exclusion;
+  /* mix-blend-mode: exclusion; */
   position: relative;
   cursor: pointer;
   transition: 0.5s;
@@ -1005,7 +1029,7 @@ header ul a:hover {
 
 .skills-box {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: start;
@@ -1612,6 +1636,13 @@ header ul a:hover {
     justify-content: space-between;
   }
 
+  .hero-info p {
+    font-size: 30px;
+    max-width: 700px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+
   .flying-astronaut {
     position: absolute;
     top: 90px;
@@ -1621,17 +1652,30 @@ header ul a:hover {
     scale: 0.9;
   }
 
+  .skills-box {
+    height: 140vh !important;
+    margin-bottom: 130px !important;
+  }
+
   .left {
     scale: 0.9;
     margin-left: -30px;
   }
 
   .left h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .hero {
     scale: 0.9;
+  }
+
+  .hero-home {
+    margin-top: 40px;
+  }
+
+  .flying-astronaut {
+    top: -25px;
   }
 
   .hero-info {
@@ -1639,7 +1683,7 @@ header ul a:hover {
   }
 
   .hero-info h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .scroll-down {
@@ -1653,11 +1697,11 @@ header ul a:hover {
     margin-left: -25px;
   }
 
-  .scroll-down-erasmus {
-    position: absolute;
-    bottom: -12%;
-    left: 45%;
-  }
+.scroll-down-erasmus {
+        position: absolute;
+        bottom: -65%;
+        left: 45%;
+    }
 
   #scroll-down-mobile {
     display: flex;
@@ -1674,17 +1718,42 @@ header ul a:hover {
     display: none;
   }
 
-  .footer-wide{
+  .footer-wide {
     width: 115% !important;
   }
 
-  .footer-wider{
-    width: 125% !important;
+  .footer-wider {
+    width: 128% !important;
   }
   .section-title {
-    font-size: 25px;
+    text-align: center;
+    font-size: 40px;
     margin-top: 10px;
     margin-bottom: 40px;
+  }
+
+  .my-project-home .section-title {
+    position: relative;
+    left: 10%;
+  }
+  .project-row {
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 131%;
+  }
+
+  .project-info h1 {
+    font-size: 30px;
+  }
+
+  .project-info p {
+    margin-top: 5px;
+    max-width: fit-content;
+    font-size: 25px;
+    margin-bottom: 25px;
   }
 
   .info-section {
@@ -1698,9 +1767,13 @@ header ul a:hover {
     padding: 20px;
   }
 
-  .about-me-home{
-    width: 108% !important;
-    margin-left: 10px;
+  .about-me-about {
+    width: 60% !important;
+  }
+
+  .about-me-home {
+    width: 100% !important;
+    justify-content: center;
   }
 
   .card {
@@ -1716,34 +1789,62 @@ header ul a:hover {
     transition: 0.5s;
   }
 
-  #aboutMeCard {
+  /* #aboutMeCard {
         margin-left: -94px;
         width: 185%;
-    }
+    } */
 
-    .skills-section {
+  .skills-section {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-}
+  }
   .card h1 {
     position: relative;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 40px;
     color: lightgray;
-    text-align: left;
-    margin-right: 30px;
+    text-align: center;
+    margin-right: 10px;
   }
 
+  #about-page h1 {
+    text-align: center;
+    font-size: 40px !important;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #about-page .project-info a {
+    margin-left: 1px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: 1px solid #72a1de81;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #72a1de81;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    margin-right: 14px;
+  }
   .card p {
+    padding-left: 27px;
+    max-width: fit-content;
     position: relative;
     margin-top: 10px;
     color: lightgray;
     font-size: 13px;
     text-align: left;
-    margin-right: 20px;
+    /* margin-right: 10px; */
+    font-size: 25px;
+    line-height: 27px;
   }
 
   .card img {
@@ -1759,7 +1860,7 @@ header ul a:hover {
     display: none;
   }
 
-  .info-section{
+  .info-section {
     width: 103%;
   }
 
@@ -1773,12 +1874,12 @@ header ul a:hover {
     position: relative;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
     width: 100%;
   }
 
   .skills-image {
-    width: 100%;
+    width: 140%;
     mix-blend-mode: normal;
     position: static;
   }
@@ -1809,18 +1910,22 @@ header ul a:hover {
   .BackEnd h1 {
     justify-content: center;
     display: flex;
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .FrontEnd p,
   .BackEnd p {
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .info-cards {
     display: flex;
     flex-direction: column;
+  }
+
+  .info-cards .card h1 {
+    font-size: 30px;
   }
 
   .card {
@@ -1829,7 +1934,7 @@ header ul a:hover {
 
   .card h1 {
     bottom: 30%;
-    font-size: 5px;
+    font-size: 30px;
   }
 
   .project-centered {
@@ -1873,7 +1978,7 @@ header ul a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    mix-blend-mode: exclusion;
+    /* mix-blend-mode: exclusion; */
     position: relative;
     left: 0;
     cursor: pointer;
@@ -1903,23 +2008,29 @@ header ul a:hover {
 
   .read-more-link {
     margin-top: 0;
+    font-size: 25px;
   }
 
   .mockupScreenStrobbo {
-    margin-top: 155px;
-    height: 265px;
-    margin-right: 0px;
+    margin-top: 550px;
+    height: 352px;
+    margin-right: -112px;
   }
 
   #internship-location {
+    margin-top: 100px;
     display: flex;
   }
 
-  .ErasmusCourses{
+  .Erasmus-mobile #internship-location{
+    margin-top: 200px;
+  }
+
+  .ErasmusCourses {
     display: none;
   }
 
-  #erasmus-coruses{
+  #erasmus-coruses {
     display: flex;
   }
 
@@ -1945,8 +2056,19 @@ header ul a:hover {
     background: linear-gradient(to right, #999999, #4caf50);
   }
 
-  .internship {
+  /* .internship {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding: 0;
+    gap: 0;
+  } */
+
+  .internship {
+    margin-bottom: 160px;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1964,11 +2086,13 @@ header ul a:hover {
   }
 
   .internship .hero-info p {
+    font-size: 35px;
     margin-bottom: 5px;
   }
 
   .internship h1.section-title {
     margin-top: 50px;
+    margin-left: 5%;
     margin-bottom: 100px;
     text-align: center;
     position: static;
@@ -1976,7 +2100,8 @@ header ul a:hover {
   }
 
   .internship h2 {
-    font-size: 23px;
+    /* margin-left: 13%; */
+    font-size: 40px;
     margin-bottom: 5px;
   }
 
@@ -2015,17 +2140,36 @@ header ul a:hover {
     margin-bottom: 0px;
   }
 
-  .image-wrapper {
-    margin-bottom: 20px;
-    bottom: 950px;
-    position: absolute;
-    right: -5px;
+  #mockup-screen-home{
+    display: none !important;
   }
 
+  .internship-documents p {
+    max-width: 550px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.internship-section-2 .scroll-down{
+ display: none;
+}
+
+  .image-wrapper {
+        margin-bottom: 20px;
+        bottom: 260px;
+        position: absolute;
+        right: -5px;
+    }
   #companion-app {
     left: 5%;
     top: 16%;
     scale: 0.9;
+  }
+
+  #companion-app h2{
+    font-size: 31px;
   }
 
   .internship-documents {
@@ -2055,7 +2199,7 @@ header ul a:hover {
     gap: 20px;
   }
   .erasmus h1.section-title {
-    margin-top: 100px;
+    margin-top: 190px;
     margin-bottom: 80px;
     text-align: center;
     position: static;
@@ -2063,21 +2207,32 @@ header ul a:hover {
   }
 
   .erasmus h2 {
-    font-size: 23px;
+    font-size: 40px;
     margin-bottom: 5px;
   }
 
-  .meta-quest-vid {
-        height: 315px;
-        display: flex;
-        position: relative;
-        top: 275px;
-        left: -30px;
-        object-fit: contain;
-        clip-path: inset(20% 0% 0% 0%);
-        mix-blend-mode: exclusion;
-    }
+  #erasmus-courses{
+  display: flex;
+}
 
+#project-info-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 50px;
+}
+  .meta-quest-vid {
+    height: 315px;
+    display: flex;
+    position: relative;
+    top: 275px;
+    left: -30px;
+    object-fit: contain;
+    clip-path: inset(20% 0% 0% 0%);
+    mix-blend-mode: exclusion;
+  }
 
   .erasmus .hero-info {
     scale: 0.8;
@@ -2091,19 +2246,20 @@ header ul a:hover {
     margin-bottom: 5px;
   }
 
-  .ErasmusInfo, #ErasmusCourses, .sweden {
+  .ErasmusInfo,
+  #ErasmusCourses,
+  .sweden {
     display: none;
   }
 
-  #erasmus-courses{
+  #erasmus-courses {
     margin-top: 185px;
   }
 
-  #erasmus-courses .hero-info{
+  #erasmus-courses .hero-info {
     flex-direction: column;
-    bottom: 45%;
+    bottom: 35%;
   }
-
 
   /* .ErasmusCourses {
     margin-top: 45px;
@@ -2116,8 +2272,12 @@ header ul a:hover {
   .ErasmusCourses h2 {
     font-size: 31px;
   } */
+
+  .Erasmus-info-desktop {
+    display: none;
+  }
   .Erasmus-mobile {
-    margin-top: 140px;
+    margin-top: 350px !important;
   }
 
   .Erasmus-mobile h1 {
@@ -2143,11 +2303,21 @@ header ul a:hover {
     left: 34%;
   }
 
-  .contact-section{padding-left: 50px;}
+  .contact-section {
+        flex-direction: column;
+        margin-top: 450px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .contact-section {
+    padding-left: 50px;
+  }
 
   .social-box {
-    margin-left: 0;
-  }
+        margin-left: 140px;
+    }
 
   .footer {
     /* padding: 15px; */
