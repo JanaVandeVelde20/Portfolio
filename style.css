@@ -2001,7 +2001,7 @@ header ul a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* mix-blend-mode: exclusion; */
+    mix-blend-mode: normal;
     position: relative;
     left: 0;
     cursor: pointer;
