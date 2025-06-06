@@ -230,7 +230,7 @@ header ul a:hover {
   right: 30px;
 }
 
-.toggle-wrapper {
+/* .toggle-wrapper {
   position: absolute;
   top: 100px;
   left: 260px;
@@ -238,7 +238,28 @@ header ul a:hover {
   height: 40px;
   border-radius: 25px;
   background: linear-gradient(to right, #999999, #4caf50);
+} */
+
+.toggle-wrapper {
+    position: absolute;
+    top: 155px;
+    left: 165px;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #999999, #4caf50);
 }
+
+  #internship-location .toggle-wrapper {
+    position: absolute;
+    scale: 0.8;
+    top: 80px;
+    left: 145px;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #999999, #4caf50);
+  }
 
 .toggle-circle {
   width: 35px;
@@ -343,12 +364,13 @@ header ul a:hover {
 }
 
 .internship-documents-buttons {
-  display: flex;
-  flex-direction: row;
-  padding-left: 0;
-  width: 110%;
-  scale:1.1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    width: 102%;
+    scale: 1.1;
 }
+
 
 .internship-documents-buttons a {
   display: inline-block;
@@ -811,6 +833,7 @@ header ul a:hover {
   align-items: center;
   justify-content: center;
   width: 50%;
+  mix-blend-mode: normal;
   /* mix-blend-mode: exclusion; */
   position: relative;
   cursor: pointer;
@@ -2273,6 +2296,14 @@ header ul a:hover {
     font-size: 31px;
   } */
 
+  .internship-documents-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    scale: 1.1;
+}
+  
   .Erasmus-info-desktop {
     display: none;
   }
