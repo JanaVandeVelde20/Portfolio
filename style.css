@@ -644,7 +644,7 @@ header ul a:hover {
 
 .skills-video {
   height: 900px;
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
 }
 
 .scroll-down-erasmus {
@@ -1023,9 +1023,8 @@ header ul a:hover {
   display: none;
 }
 
-@keyframes hover-animation {
+/* @keyframes hover-animation {
   0% {
-    /* top:20%; */
     box-shadow: 0 0 5px rgb(255, 255, 255);
     transform: translate(100%, 50%) rotate(30deg);
   }
@@ -1034,7 +1033,7 @@ header ul a:hover {
     box-shadow: 0 0 5px rgb(255, 255, 255);
     transform: translateX(80%, 80%) rotate(20deg);
   }
-}
+} */
 
 /* Skills section */
 .skills-section {
@@ -1061,7 +1060,7 @@ header ul a:hover {
 }
 
 .skills-image {
-  mix-blend-mode: difference;
+  mix-blend-mode: normal;
 }
 
 .FrontEnd {
