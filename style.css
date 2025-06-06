@@ -1327,8 +1327,8 @@ header ul a:hover {
 .sidebar ul li a {
   text-decoration: none;
   color: lightgray;
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 600;
   text-shadow: 0 0 15px #4c4c4c;
 }
 
@@ -1353,7 +1353,7 @@ header ul a:hover {
 
 @keyframes openSideBarAnimation {
   to {
-    width: 80%;
+    width: 60%;
     opacity: 1;
     bottom: 0;
     border-radius: 0;
@@ -2091,7 +2091,7 @@ header ul a:hover {
     margin-bottom: 5px;
   }
 
-  .ErasmusInfo, #ErasmusCourses {
+  .ErasmusInfo, #ErasmusCourses, .sweden {
     display: none;
   }
 
