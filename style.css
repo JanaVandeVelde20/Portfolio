@@ -522,7 +522,7 @@ header ul a:hover {
 }
 
 .hero-info p {
-  max-width: 100%;
+  max-width: 550px;
   line-height: 25px;
   margin-bottom: 40px;
   font-size: 20px;
